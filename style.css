@@ -2,4 +2,126 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #181818;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+button:hover,
+.logo:hover,
+.sign-in-prompt:hover {
+  cursor: pointer;
+}
+
+header {
+  background-color: #212121;
+  padding: 0 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left,
+.center,
+.right,
+.sign-in-prompt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2px;
+  padding: 10px 6px;
+}
+
+.fas {
+  padding: 8px;
+}
+
+.logo > p {
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 28px;
+}
+
+.youtube-logo {
+  height: 36px;
+  width: auto;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  margin-right: 8px;
+}
+
+.search-box input {
+  flex: 1;
+  background-color: #121212;
+  color: #ffffffe0;
+  border: 1px solid #ffffff2a;
+  font-size: 16px;
+  padding: 6px 8px;
+  height: 44px;
+}
+
+.search-box input:focus {
+  outline: none;
+}
+
+.search-box button[type="submit"] {
+  background-color: #ffffff14;
+  height: 44px;
+  width: 64px;
+}
+
+.voice-input {
+  border: none;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  background-color: #121212;
+}
+
+.right {
+  gap: 12px;
+}
+
+.sign-in-prompt {
+  border: 1px solid #3ea6ff;
+  border-radius: 4px;
+  color: #3ea6ff;
+  padding: 6px 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+.sign-in-prompt > p {
+  color: inherit;
+}
+
+.sign-in-prompt > i {
+  border: 1px solid #3ea6ff;
+  border-radius: 50%;
+  height: 26px;
+  width: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: inherit;
 }
